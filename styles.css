@@ -11,3 +11,42 @@ body {
 .link {
     color: white;
 }
+
+.notes-p {
+    font-size: 1.2rem;
+    width: 50%;
+    text-wrap: wrap;
+}
+
+.good {
+    color: rgb(56, 255, 76)
+}
+
+.bad {
+    color: rgb(243, 68, 68);
+}
+
+.back {
+    width: fit-content;
+    display: block;
+    padding: 0.5em 1em;
+    background-color: rgb(9, 148, 255);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    transition-duration: 200ms;
+}
+
+.back:hover {
+    background-color: rgb(10, 128, 219);
+}
+
+.back:active {
+    background-color: rgb(8, 114, 194);
+}
+
+.back::before {
+    font-weight: 900;
+    content: "<-- ";
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inkrementaalne</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <a href="sdlcmodels.html" class="back">Mine tagasi</a>
+    <h1>Inkrementaalne mudel</h1>
+    <img src="https://static.javatpoint.com/tutorial/software-engineering/images/software-engineering-incremental-model.jpg">
+    <p>Inkrementaalmudel on üks enim kasutusele võetud tarkvaraarendusprotsessi mudeleid, kus tarkvaranõue on tarkvaraarenduse elutsükli jooksul jaotatud paljudeks eraldiseisvateks mooduliteks. Kui moodulid on jagatud, viiakse järkjärguline arendus läbi etappidena, mis hõlmavad kogu analüüsi, kavandamist, juurutamist, kogu nõutava testimise või kontrollimise ja hoolduse läbiviimist. Inkrementaalsetes mudelites töötatakse välja iga iteratsioonietapp ja seega läbib iga etapp tarkvaraarenduse elutsükli nõudeid, disaini, kodeerimist ja lõpuks testimismooduleid. Igas etapis välja töötatud funktsionaalsus lisatakse eelnevalt välja töötatud funktsionaalsusele ja seda korratakse seni, kuni tarkvara on täielikult välja töötatud. Igas järkjärgulises etapis tehakse läbivaatus, mille alusel tehakse otsus järgmise etapi kohta.</p>
+    <p class="notes-p">
+        <ol>
+            <li>Vajaduste analüüs - Täielik analüüs viiakse läbi nõude ja selle kohta, kuidas veenduda, et see nõue ühildub varem välja töötatud nõudega</li>
+            <li>Disain - Kui olen selle konkreetse juurdekasvu nõudest aru saanud ja selge, koostatakse kujundus selle nõude rakendamise ja arhiveerimise kohta.</li>
+            <li>Kood - Nüüd toimub kodeerimine vastavalt nõuete eesmärgi saavutamiseks. Kõiki kodeerimisstandardeid järgitakse ilma vaikeseadete ja tarbetute kõvakoodideta</li>
+            <li>Test - See on viimane järkjärgulises faasis, kus arendatud koodile tehakse agressiivne testimine ning defektidest teatatakse ja need lahendatakse</li>
+        </ol>
+    </p>
+
+    <h2>Rakendamine</h2>
+    <p class="notes-p">
+        <ul>
+            <li>Süsteemi nõuded on selgelt arusaadavad</li>
+            <li>Kui tekib nõudlus toote ennetähtaegse vabastamise järele</li>
+            <li>Kui tarkvaratehnika meeskond ei ole väga hästi kvalifitseeritud või koolitatud</li>
+            <li>Kui tegemist on kõrge riskiga funktsioonide ja eesmärkidega</li>
+            <li>Sellist metoodikat kasutatakse rohkem veebirakenduste ja tootepõhiste ettevõtete jaoks</li>
+        </ul>
+    </p>
+
+    <h2 class="good">Eelised</h2>
+    <p class="notes-p">
+        <ul>
+            <li>Kuna objekt jagatakse järkjärgulisteks etappideks, siis tagatakse, et 100% nõuded on täidetud ja tarkvara 100% eesmärk.</li>
+            <li>Kuna igas järkjärgulises faasis on testimine, tehakse tarkvarale mitu testimist ja mida rohkem testitakse, on tulemus ja vähem defekte.</li>
+            <li>Seda lähenemisviisi kasutades saame vähendada esialgseid tarnekulusid.</li>
+            <li>See mudel on paindlik ja sellega kaasnevad minimaalsed kulud, kui nõuet või ulatust muudetakse.</li>
+            <li>Kasutaja või klient saab anda tagasisidet iga etapi kohta, et tööpingutust väärtustatakse ja nõuete järske muutusi saab vältida.</li>
+            <li>Võrreldes teise mudeliga on see mudel kasutaja taskus odavam.</li>
+            <li>Neid mudeleid järgides saab vigu vaikselt tuvastada</li>
+        </ul>
+    </p>
+
+    <h2 class="bad">Puudused</h2>
+    <p class="notes-p">
+        <ul>
+            <li>See mudel nõuab põhjalikku planeerimist ja projekteerimist.</li>
+            <li>Selle lagundamiseks ja järkjärguliseks ülesehitamiseks vajab see kogu süsteemi täielikku ja selget määratlust.</li>
+            <li>Kui nõuet alguses ei mõisteta, puruneb kogu suurendamise eesmärk. Seega võib süsteemiarhitektuuriga tekkida probleeme, kui kõiki nõudeid kogu tarkvara elutsükli jooksul ei koguta.</li>
+            <li>Ühe üksuse probleem tuleb parandada kõigis üksustes, mis võtab palju aega.</li>
+            <li>Iteratsioonifaasid on jäigad ja ei kattu üksteisega.</li>
+        </ul>
+    </p>
+</body>
+</html>

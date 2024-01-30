@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spiraal</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <a href="sdlcmodels.html" class="back">Mine tagasi</a>
+    <h1>Spiraal</h1>
+    <img src="https://eopearhiiv.edu.ee/e-kursused/eucip/arendus/image4.4.png">
+    <p>Spiraalmudel on samuti üks iteratiivseid arendusmudeleid. </p>
+    <p class="notes-p">
+        Spiraalmudelit kirjeldas esimest korda Barry Boehm oma 1986 a. artiklis. Protsessi kulgemist kujutab spiraal. Esimene kordus võib olla näiteks seotud süsteemi teostatavuse uurimisega, teine nõudmiste kirjeldamisega, järgmine kavandamisega jne. Mitu kordust on enamasti seotud tarkvara realiseerimisega, kus tema ehitamine toimub inkrementaalselt. Kuid kindlasti ei tohiks spiraali korduseid võrdsustada tavapäraste arendusprotsessi faasidega. Iga kordus on jaotatud 3 kuni 6 sektorisse (erinevad autorid jagavad erinevalt). Iga kordus algab lähema eesmärgi kavandamise ja riskide hindamisega ning lõppeb nö kliendiga - ehk eesmärk peab saama täidetud ja kontrollitud. Sektorite töömahukus ei pruugi olla ühesugune. 
+    </p>
+    <p class="notes-p">
+        <ol>
+            <li>Eesmärkide seadmine (Objective setting) - määratakse selle faasi ehk korduse eesmärgid, piirangud protsessis, tulemused, juhtimisplaan, võimalikud riskid ning alternatiivsed strateegiad lähtudes riskidest.</li>
+            <li>Riskide hindamine ja maandamine (Risk assessment and reduction) - iga leitud riski jaoks tehakse analüüs, võetakse midagi ette riskide maandamiseks (nt risk, et nõudmised pole adekvaatsed: tehakse prototüüp)</li>
+            <li>Arendus ja valideerimine (Development and validation) - valitakse arendusmudel, mis lähtub hinnatud riskidest (mudel peab olema selline, mis riske vähendada aitab). Nt kui kasutajaliides on suurim risk, siis võib aidata prototüüpide tegemine.</li>
+            <li>Planeerimine (Planning) - projekt vaadatakse üle ja tehakse otsus, kas jätkata järgmisel kordusel, kui otsustatakse jätkata, tehakse järgmise faasi jaoks plaan. </li>
+        </ol>
+    </p>
+
+    <h2>Rakendamine</h2>
+    <p class="notes-p">
+        Spiraalmudelit kasutatakse tarkvaratööstuses laialdaselt, kuna see on sünkroonis mistahes toote loomuliku arendusprotsessiga, st õppimisega koos küpsusega, millega kaasneb minimaalne risk nii kliendi kui ka arendusettevõtete jaoks.
+        <ul>
+            <li>Kui eelarve on piiratud ja riski hindamine on oluline.</li>
+            <li>Keskmise kuni kõrge riskiga projektide jaoks.</li>
+            <li>Pikaajaline projektikohustus, kuna vajadused aja jooksul muutuvad majanduslikes prioriteetides.</li>
+            <li>Klient ei ole oma nõuetes kindel, mis tavaliselt nii on.</li>
+            <li>Nõuded on keerulised ja vajavad selguse saamiseks hindamist.</li>
+            <li>Uus tootesari, mis tuleks välja anda etappide kaupa, et saada piisavalt klientide tagasisidet.</li>
+            <li>Arendustsükli jooksul on tootes oodata olulisi muudatusi.</li>
+        </ul>
+    </p>
+
+    <h2 class="good">Eelised</h2>
+    <p class="notes-p">
+        <ul>
+            <li>Muutuvaid nõudeid on võimalik kohandada.</li>
+            <li>Võimaldab prototüüpide laialdast kasutamist.</li>
+            <li>Nõuded saab täpsemalt tabada.</li>
+            <li>Kasutajad näevad süsteemi varakult.</li>
+            <li>Arendust saab jagada väiksemateks osadeks ja riskantsed osad varem välja töötada, mis aitab paremini riske juhtida.</li>
+        </ul>
+    </p>
+
+    <h2 class="bad">Puudused</h2>
+    <p class="notes-p">
+        <ul>
+            <li>Juhtimine on keerulisem.</li>
+            <li>Projekti lõpp ei pruugi varakult teada saada.</li>
+            <li>Ei sobi väikeste või madala riskiga projektide jaoks ning võib väikeste projektide puhul olla kulukas.</li>
+            <li>Protsess on keeruline</li>
+            <li>Spiraal võib kesta lõputult.</li>
+            <li>Suur hulk vaheetappe nõuab liigset dokumenteerimist.</li>
+        </ul>
+    </p>
+</body>
+</html>
