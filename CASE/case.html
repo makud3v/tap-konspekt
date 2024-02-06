@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CASE vahendid</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body class="flex flex-col text-center">
+    <a href="../index.html" class="back">Mine tagasi</a>
+    <h1 class="text-4xl">Mudelid</h1>
+    <hr class="border-none bg-blue-500 h-1">
+    
+    <div class="items-center content-center justify-center justify-items-center self-center justify-self-center grid grid-cols-3 gap-x-8 gap-y-8 w-4/5 mt-8 h-full">
+        
+        <div class="bg-gray-800 w-full text-center items-center flex flex-col gap-y-4 px-2 py-5">
+            <h1 class="text-white text-4xl">Mis on CASE vahend?</h1>
+            <p class="text-wrap max-w-96">Arvutipõhise tarkvaratehnoloogia (CASE) tehnoloogiad on tööriistad, mis pakuvad tarkvara arendamiseks automatiseeritud abi. CASE tööriistade kasutuselevõtu eesmärgiks on tarkvaraarenduse aja ja kulude vähendamine ning arendatavate süsteemide kvaliteedi tõstmine.</p>
+        </div>
+        
+        <div class="bg-gray-800 w-full text-center items-center flex flex-col gap-y-4 py-5">
+            <h1 class="text-white text-4xl">Milleks kasutada?</h1>
+            <p class="text-wrap w-4/5">CASE tööriistad võimaldavad arendada süsteeme, mida on lihtsam testida ja hooldada ning mis sisaldavad kvaliteetset dokumentatsiooni. Lühidalt öeldes on CASE tööriistade abil arendatud tarkvara kvaliteet paranenud, kuna defekte on vähem.</p>
+        </div>
+    
+        <div class="bg-gray-800 w-full text-center items-center flex flex-col gap-y-4 px-2 py-5">
+            <h1 class="text-white text-4xl">Mis CASE vahendi tüübid on olemas?</h1>
+            <p class="text-wrap w-2/3">
+                CASE-vahendid võivad nende konkreetse otstarbe järgi klassifitseerida mitmel viisil. Süsteemiarenduse elutsükli toetavad CASE-vahendid jaotatakse näiteks kahte analüüsi:
+                <ul class="flex flex-col gap-4">
+                    <li class="font-semibold text-blue-400">„ülemise taseme" CASE-vahendid (upper CASE tools) toetavad analüüsi ja projekteerimist. Peamiselt on nad kasutusel kasutaja analüüsimise ja dokumenteerimisel. Nad on ennekõike mõeldud visualiseerimiseks, erinevate skeemide koostamiseks ja ka dokumentatsiooni genereerimiseks. nad toetavad traditsiooniliste diagrammikeelte (olem-seos diagrammid) , andmemudelid, UML-skeemid, jne).</li>
+                    <li class="font-semibold text-orange-400">„alumise taseme" CASE vahendid (lower CASE tools) keskenduvad teostusele, kus mudelitest saab tegelik tarkvaratoode. Nad toetavad andmebaasi struktuuri genereerimist, koodi genereerimist, testide läbiviimist, koodi versioonihaldust, konfiguratsioonihaldust, pöördprojekteerimist jms.</li>
+                </ul>
+            </p>
+        </div>
+        
+
+        <div class="bg-gray-800 px-10 py-10 flex flex-col gap-y-2 w-full">
+            <h2 class="text-2xl">CASE vahendite näited</h2>
+            <h3 class="text-xl bg-blue-500">Ülemise taseme CASE vahendid</h3>
+            <ul class="flex flex-col gap-2 text-md font-bold">
+                <li class="bg-gray-700 duration-200 hover:cursor-pointer hover:scale-125"><a href="staruml.html"><span class="text-yellow-400">Star </span>UML</a></li>
+                <li class="bg-gray-700 duration-200 hover:cursor-pointer hover:scale-125 text-blue-400"><a href="msvisio.html">Microsoft Visio</a></li>
+                <li class="bg-gray-700 duration-200 hover:cursor-pointer hover:scale-125"><a href="trello.html">Trello</a></li>
+            </ul>
+    
+            <h3 class="text-xl bg-orange-500">Alumise taseme CASE vahendid</h3>
+            <ul class="flex flex-col gap-2 text-md font-bold">
+                <li class="bg-gray-700 duration-200 hover:cursor-pointer hover:scale-125 text-green-500"><a href="selenium.html">Selenium</a></li>
+                <li class="bg-gray-700 duration-200 hover:cursor-pointer hover:scale-125"><a href="git.html">Git</a></li>
+                <li class="bg-gray-700 duration-200 hover:cursor-pointer hover:scale-125"><a href="terraform.html">Terraform</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
