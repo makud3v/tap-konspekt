@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UML</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body class="flex flex-col gap-4 text-center">
+    <a href="../" class="back">Mine tagasi</a>
+    <header class="flex flex-col gap-8">
+        <img class="w-1/2 m-auto border-blue-500 border-solid border-8 h-auto" src="https://images.ctfassets.net/w6r2i5d8q73s/6O9tn7x5Bvh7ECEhdEWSJZ/a881b352d2e1d1e9198299ba0c4deb10/diagramming_uml_diagram_product_image_EN_standard_3_2-2.png?fm=webp&q=75">
+        <h1 class="text-4xl">Ühtne modelleerimiskeel (UML)</h1>
+    </header>
+    <main class="w-1/2 self-center flex flex-col gap-8 text-wrap">
+        <p>
+            Ühtne modelleerimiskeel, lühendina UML, ka unifitseeritud modelleerimiskeel, UML-keel, ühtne mudelikeel, ühtne visualiseerimiskeel on üldotstarbeline noteeringukeel keeruline tarkvara, peamiselt suurte objektorienteeritud projektide spetsifikatsioon ja visualiseerimiseks
+        </p>
+        <p class="whitespace-pre-line text-center justify-center">
+            UML-diagramme on kaks alamkategooriat: struktuuriskeemid ja käitumisdiagrammid.
+
+            Struktuuridiagrammid kujutavad süsteemi moodustavaid komponente ja nende komponentide vahelist seost. Need diagrammid näitavad süsteemi staatilisi aspekte.
+
+            Käitumisdiagrammid näitavad süsteemi sees toimuvat. Need näitavad, kuidas kõik komponendid omavahel ja teiste süsteemide või kasutajatega suhtlevad.
+        </p>
+<h2 class="text-3xl">Struktuuridiagrammid</h2>
+        <p class="whitespace-pre-line">
+<h2 class="text-2xl">Klassiskeem</h2>
+
+UML-klassi diagramm on iga objektorienteeritud lahenduse põhiline ehitusplokk. See kujutab staatilist objektorienteeritud süsteemi, mis määratleb projektid klasside, atribuutide ja funktsioonide järgi. Teisisõnu näitab see süsteemi klasse ja igaühe toiminguid. Nii tarkvarainsenerid kui ka ärijuhid kasutavad seda interaktsioonidiagrammi protsessi erinevate ühenduste modelleerimiseks.
+
+Diagrammil on klass kujutatud ristkülikuga. Iga ristkülik on jagatud vertikaalselt kolmeks osaks. Ülemises osas on klassi nimi, samas kui teises ja kolmandas jaotises on üksikasjad klassi toimingute, käitumise ja atribuutide kohta.
+
+Neid diagramme saate hõlpsalt luua UML-i klassiskeemide tööriista abil.
+<h2 class="text-2xl">Pakendi skeem</h2>
+
+Nagu nimigi ütleb, näitab paketidiagramm süsteemi pakettide vahelisi sõltuvusi ja seoseid. Pakett viitab kõigele, mis korraldab mis tahes mudelielementi. Diagrammil endas on see esitatud failikaustana.
+
+Pakendiskeem võimaldab kasutajal rühmitada üksused kaustadesse. Üksused, mida saab rühmitada, hõlmavad klasse, kasutusjuhtumeid, dokumente, diagramme ja isegi muid pakette. Kui iga üksus on paketile eraldatud, järjestatakse ja järjestatakse kõik pakendid diagrammil hierarhiliselt.
+
+Kuna need kujutavad hõlpsalt tipptaseme struktuuri, on paketiskeemid enamasti kasulikud tarkvarasüsteemide visualiseerimiseks.
+<h2 class="text-2xl">Objekti diagramm</h2>
+
+Objektide diagrammid näitavad süsteemi erinevate objektide atribuute. Ja nagu klassidiagrammid, näitavad need objektide vahelisi seoseid tarkvaras. Erinevus seisneb selles, et objektidiagrammid kasutavad reaalse maailma näiteid. Objektdiagramme nimetatakse ka eksemplaride diagrammideks, kuna need näitavad, kuidas süsteem konkreetsel ajahetkel välja näeb.
+<h2 class="text-2xl">Komponentide diagramm</h2>
+
+UML-i komponentide diagramm jaotab keeruka süsteemi väiksemateks komponentideks, muutes selle visualiseerimise lihtsamaks. Erinevalt teistest UML-skeemidest kirjeldab see konkreetselt nende komponentide vahelisi seoseid.
+
+UML-i komponentide diagrammid annavad arendajatele üldise ülevaate süsteemi füüsilistest objektidest. Seda tüüpi UML diagramm näitab struktuurset seost iga füüsilise komponendi ja alamkomponendi vahel keerulises tarkvarasüsteemis. See aitab sidusrühmadel mõista, kuidas komponendid on organiseeritud ja omavahel ühendatud.
+
+Nende diagrammide loomine on lihtne kasutajasõbraliku UML-i komponentide diagrammi tööriistaga.
+
+
+<h2 class="text-2xl">Komposiitstruktuur diagramm</h2>
+
+Paigaldusskeem näitab töötlemissõlmede ja kõigi neis elavate komponentide konfiguratsiooni. See kujutab sõlmede füüsilist paigutust hajutatud süsteemis. Need diagrammid on eriti kasulikud, kui loote tarkvara, mis töötab erinevates riistvarasüsteemides.
+
+Süsteemiinsenerid kasutavad neid diagramme kõige tõenäolisemalt, kuna nad saavad kogu oma riistvaravõrku jälgida ja süsteemi käivitamiseks ilma probleemideta ette valmistada. Samuti võimaldab see neil näha jõudlust, hooldatavust ja mastaapsust.
+Komposiitstruktuuri diagramm
+
+Komposiitstruktuuri diagrammid visualiseerivad klassi sisemist struktuuri. Need diagrammid jaotavad klasside, liideste ja komponentide võrgu. Seda tüüpi UML-diagramm näitab ka seda, kuidas need elemendid üksteisega suhtlevad ja miks need on üldise tarkvarastruktuuri jaoks olulised.
+        </p>
+
+        <h2 class="text-3xl">Käitumisdiagrammid</h2>
+        <p>
+            <h2 class="text-2xl">Tegevusskeem</h2>
+
+            UML-i tegevusskeem on vooskeem, mis kirjeldab kõiki süsteemi tegevusi. See näitab kõike algusest lõpuni, määratledes erinevad otsustusviisid ja sammud, mis peavad juhtuma, et ühelt tegevuselt teisele liikuda. Sammud võivad olla kronoloogilised, hargnenud või samaaegsed.
+            
+            UML-i tegevusskeemi abil saate lihvida mis tahes komponenti ja saada kõrgetasemelist ülevaadet süsteemi dünaamilistest aspektidest. Nende diagrammide loomiseks on parim viis kasutada intuitiivset UML-i tegevusskeemi koostajat.
+            <h2 class="text-2xl">Järjestusskeem</h2>
+            
+            UML-i järjestusdiagrammid (mida mõnikord nimetatakse sündmuste diagrammideks) näitavad teie objektide interaktsiooni järjekorda. See hõlmab teie objektide päästejooni, protsesse, mis teie objektidega suhtlevad, ja sõnumeid, mida objektide vahel funktsiooni täitmiseks vahetatakse.
+            
+            Arendajad ja ärispetsialistid kasutavad sageli neid diagramme, et mõista, kuidas uut süsteemi üles ehitada või olemasolevat protsessi täiustada. Saate neid hõlpsalt luua veebipõhise UML-i jada diagrammi abil.
+            <h2 class="text-2xl">Sideskeem</h2>
+            
+            UML-i suhtlusskeeme nimetatakse ka koostöödiagrammideks. Need on suhteliselt sarnased jadaskeemidega, keskendudes erinevate objektide vahel edastatavatele sõnumitele. Kui jadadiagrammid vaatlevad töötlemist aja jooksul, siis suhtlusskeem loob teie toote täieliku suure pildikaardi. Suhtlusskeemide tööriist muudab nende visualiseerimiste loomise lihtsaks.
+            Interaktsiooni ülevaate diagramm
+            
+            Sarnaselt tegevusdiagrammidele visualiseerivad interaktsiooni ülevaatediagrammid tegevuste voogu ja nende tegevuste järjestust. Erinevus seisneb selles, et interaktsiooni ülevaate diagrammil kuvatakse iga tegevust raamina. Interaktsioonide ülevaate diagrammi sõlmed tähistavad vastasmõjusid süsteemis.
+            <h2 class="text-2xl">Ajastusdiagramm</h2>
+            
+            Ajastusdiagramm on juurutamisel kasulikud, kuna need kujutavad konkreetsete objektide käitumist konkreetse aja jooksul. Need diagrammid on tavaliselt üsna lihtsad, kuid kui käsitletakse rohkem kui ühte objekti, näitavad need paljude erinevate ja oluliste jadade vastasmõju selle aja jooksul.
+            <h2 class="text-2xl">Kasutusjuhtumi diagramm</h2>
+            
+            Kasutusjuhtude diagrammid annavad graafilise ülevaate tarkvarasüsteemis osalevatest osalistest. Illustreerides süsteemi funktsionaalsust ja visandades süsteemi eeldatavat käitumist, aitavad need arendajatel analüüsida kasutusjuhtude ja isikute vahelisi seoseid. Saate neid interaktsioone hõlpsasti visualiseerida, kasutades kasutusjuhtumi diagrammi tööriista.
+            <h2 class="text-2xl">State machine diagramm</h2>
+            
+            UML-i olekumasina diagrammid, mida tuntakse ka olekudiagrammide diagrammina, näitavad süsteemi erinevate komponentide käitumist. Saate visualiseerida, kuidas elemendid toimivad erinevalt vastavalt arendatava programmi olekule. Looge Miro olekudiagrammi tööriista abil hõlpsalt olekudiagramm.
+        </p>
+
+        <a target="_blank" href="https://miro.com/diagramming/what-is-a-uml-diagram/" class="link">Loe veel</a>
+    </main>
+</body>
+</html>
