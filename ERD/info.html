@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entity Relationship Diagram (ERD)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body class="flex flex-col gap-4 text-center">
+    <a href="../" class="back">Mine tagasi</a>
+    <header>
+        <h1 class="text-4xl">Entity Relationship Diagram (ERD)</h1>
+    </header>
+    <main class="w-1/2 self-center flex flex-col gap-8 text-wrap py-12">
+        <img src="https://www.researchgate.net/publication/305222386/figure/fig1/AS:732739397509124@1551710094621/Entity-Relationship-Diagram-ERD-of-the-database.png" class="w-1/2 h-fit m-auto border-solid border-blue-500 border-4">
+        <div>
+            <h2 class="text-2xl">Mis see on?</h2>
+            <p class="whitespace-pre-line">
+                Entity Relationship (ER) diagramm on teatud vooskeemi tüüp, mis illustreerib, kuidas "olemid" (nt inimesed, objektid või mõisted) on süsteemis üksteisega seotud.
+                ER diagramme kasutame üldjuhul andmebaasi tabelite illustreerimiseks, näidates ära, kuidas tabelid omavahel seotud on.
+                On traditsioon, et ER/andmemudelid ehitatakse kahel või kolmel abstraktsioonitasemel. 
+                Allpool olevat kontseptuaalset-loogilist-füüsilist hierarhiat kasutatakse muud tüüpi spetsifikatsioonides ja see erineb tarkvaratehnika kolme skeemi lähenemisviisist:
+                <ul class="list-none flex flex-col gap-2 mt-4">
+                    <li class="p-2 bg-slate-700">
+                        <figure>
+                            <img src="https://www.uky.edu/~dsianita/622/t4.gif" class="w-1/2 h-fit m-auto border-solid border-blue-500 border-4">
+                            <figcaption>
+                                Conceptual data model (Kontseptsiooniline andmemudel)
+                            </figcaption>
+                        </figure>
+                    </li>
+                    
+                    <li class="p-2 bg-slate-700">
+                        <figure>
+                            <img src="https://www.researchgate.net/publication/363120632/figure/fig2/AS:11431281081875301@1661908654026/Entity-relationship-diagram-schematically-describing-a-logical-framework-of-the-database.png" class="w-1/2 h-fit m-auto border-solid border-blue-500 border-4">
+                            <figcaption>
+                                Logical data model (Loogiline andmemudel)
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="p-2 bg-slate-700">
+                        <figure>
+                            <img src="https://www.researchgate.net/publication/296683864/figure/fig2/AS:409272019111941@1474589461381/Physical-Data-Model-After-an-ERD-for-craftsmen-are-made-a-Physical-Data-Model-are.png" class="w-1/2 h-fit m-auto border-solid border-blue-500 border-4">
+                            <figcaption>
+                                Physical data model (Füüsiline andmemudel)
+                            </figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </p>
+        </div>
+        <div>
+            <h2 class="text-2xl">Miks me seda kasutame?</h2>
+            <p class="whitespace-pre-line">
+                ERD-d aitavad kõigil mõista nende andmebaasis talletatavate andmete/teabe aluseid.
+                Ilma andmebaasi ülesehitust mõistmata, on tabelite loomine väga piinarikas ja tihtipeale tekivad meil olemiseostega vead või ebavajalikud veerud.
+                Probleemiks tuleb näiteks see, kui teed tabeli õpilaste ja isikute jaoks ja unustad need omavahel seostada või lisad nii õpilase olendile kui ka isikule veeru "IdCode" - mille puhul on risk, et andmed ei klapi või toimub ebavajalik ressursside kasutus.
+            </p>
+        </div>
+    </main>
+</body>
+</html>
